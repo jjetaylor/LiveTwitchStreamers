@@ -1,0 +1,8 @@
+Delete everything in this file. Then place the Twitch Streamer Names that you want to open automatically on their own individual line. An example would look like be:
+
+
+AscendingShado23
+Yogscast
+SajeSkript
+Kaiwolf_
+DredgenGreed
