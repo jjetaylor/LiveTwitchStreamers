@@ -28,7 +28,7 @@ else
 }
 
 #This section checks to see if a user is live. If it is live then open internet explorer and navigate to their twitch stream. 
-foreach($TwitchUser in Get-Content .\twitchusers.txt) {
+foreach($TwitchUser in Get-Content $PSScriptRoot\twitchusers.txt) {
     $URI = "https://api.twitch.tv/helix/streams?user_login=$TwitchUser"
     $result = Invoke-RestMethod -Method Get -Uri $URI -Headers $headers
     $TwitchURL = "https://www.twitch.tv/$TwitchUser"
